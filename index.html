@@ -5,89 +5,106 @@
             <meta http-equiv="X-UA-Compatible" content="IE-edge">
             <meta name="Viewport" content="width=device-width, initial-scale=1.0">
             <title>Resume</title>
-            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-            <link rel="stylesheet" href="style.css">
+            <link href='https://unpkg.com/boxic
+            
+            ons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            <link rel="stylesheet" href="about.css">
             <script src="https://unpkg.com/feather-icons"></script>
         </head>
 
     <body>
-        <div class="menubar">
-            <div class="menu">
-                <div id="mySidenav" class="sidenav">
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <a href="#">About</a>
-                  <a href="#">Services</a>
-                  <a href="#">Clients</a>
-                  <a href="#">Contact</a>
-                </div>
-
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-            
-
-                <img src="moon.png" class="imageIcon" id="icon">
-            
+        <header>
+            <div id="hamburger-icon">
+            <div id="mySidenav" class="sidenav">
+                <div class="menugroup1">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><strong>< Close menu</strong></a>
+                
+               <hr>
+               
+                <a href="Home.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="#">Servives</a>
+                <a href="#">Contact</a>
             </div>
-        </div>    
-
+            <div class="menugroup2">
+                <a href="javascript:void(0)" class="closebtn2" onclick="closeNav()"><strong></strong></a>
+            </div>
+              </div>
+    
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()"><strong>&#9776</strong></span>
+            </div>
+            
+            <div id="brand"><a href="Index.html"> <div class="logo"> Ani</div> <div class="logotxt"> Web</div></a></div>
+            
+    
+            <nav>
+    
+                <ul>
+                    <li><a href="Home.html" >Home</a> </li>
+                    <li><a href="products.html" >Products</a> </li>
+                    <li><a href="/products" >Services</a> </li>
+                    <li><a href="/about" >Contact</a> </li>                
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="login.html"><button id="submit" class="btn" value="submit" >Login </button></a>
+            </div>   
+        </header>
+    
         
         <div class="container">
             <div class="profile">
              <div class="profile_container">
                     <!-- <img src="img.png"  id="icon"> -->
-                <div class="profile_profileImg">
+                <!-- <div class="profile_profileImg">
                     <img src="profile.png" class="profile" alt="Akshit Sisodiya">
                     
-                </div>
+                </div> -->
                 <div>
                     <h1 class="profile_name">
                         
-                       <span class="profile_name_firstname">Akshit</span> 
+                       <span class="profile_name_firstname">Ani</span> 
  
-                       <span class="profile_name_lastname"> sisodiya </span>
+                       <span class="profile_name_lastname"> Web </span>
                     </h1>
-                        <p class="profile_title">Software Developer</p>
+                        <p class="profile_title">Website and Software  Development Company</p>
                         <p class="description">
-                            I am an energetic ambitious person. want to be in a position that would enable me to prove my 
-                            Dedication, excellence and discipline in my work and be given a chance to show that I am consistent
-                            in striving hard to meet the institutions expectation.
+                            Makes Responsive Websites and Applications that will Help you in growing Your Business across the World.
                         </p>
-                        <a class="downloadBtn" href="./resume.pdf" download="Resume.pdf">Download Resume</a>
+                        <!-- <a class="downloadBtn" href="./resume.pdf" download="Resume.pdf">Download Resume</a> -->
                         
                 </div>
             </div>
          </div>
+
+
          <div class="group-1">
             <div class="skills">
-             <h3 class="title">Experties</h3>
-            <ul class="skill_list description">
-                <li>Java</li>
-                <li>Php & wordpress</li>
-                <li>HTML, CSS and javascript</li>
-                <li>C/C++</li>
-            </ul>
+             <h3 class="title">Objectives</h3>
+            <p class="description" >Providing  Websites and Applications to our Clients that are easy to understand. </p>
             </div>
             <div class="ref">
-                <h3 class="title">Reference</h3>
+                <h3 class="title">Products & Servicer</h3>
                 <div class="ref_item">
-                     <h4 class="ref_name"> Name </h4>                 <!--  reference k name   -->
+                     <h4 class="ref_name"> Websites and Applications </h4>                 <!--  reference k name   -->
                     <p class="description">
-                        Reference k description  
+                      We understand our clients needs and built Websites and Applications that will supports their Business in the Market.
                     </p>
                 </div>       
             </div>
             <div class="ref_item">
-                <h4 class="ref_name"> Name </h4>                 <!--  reference k name   -->
+                <h4 class="ref_name">Services</h4>                 <!--  reference k name   -->
                <p class="description">
-                   Reference k description  
+                   We provide full support to our customer.We provide all the services related to providing Hosting and Domain to Your Websites 
                </p>
            </div> 
            <div class="edu">
-            <h3 class="title">Education</h3>
+            <h3 class="title">Offers & Discounts</h3>
             <div class="edu_item">
-                <p class="item_preTitle">2022-2024</p>
-                <h4 class="item_title">BCA</h4>
+                <p class="item_preTitle">2024</p>
+                <h4 class="item_title"> Sorry ! We have no offers to Provide.Download our official Application to Stay Updated.</h4>
                 <p class="item_subtitle">
-                    Maharaja Surajmal BRIJ University
+                   link will be Comming Soon.
                 </p>
             </div>
             <!-- <div class="edu_item">
@@ -111,29 +128,30 @@
          </div>
          <div class="group-2">
             <div class="exp">
-                <h3 class="title">Experience</h3>
+                <h3 class="title">Job Offers</h3>
                 <div class="exp_item">
                     <p class="item_preTitle">2024 - Present</p>
-                    <h4 class="item_title">Company name</h4>
-                    <p class="item_subtitle">Frontend Developer</p>
+                    <h4 class="item_title">Backend Developer</h4>
+                    <p class="item_subtitle">We are looking for a Skilled person in html,css and javascript.</p>
                     <p class="description">
-                        company ka description
+                        Salary: 10k - 30k
                     </p>
                 </div>
                 <div class="exp_item">
                 <p class="item_preTitle">2024 - Present</p>
-                <h4 class="item_title">Company name</h4>
-                <p class="item_subtitle">Frontend Developer</p>
+                <h4 class="item_title">Software Developer</h4>
+                <p class="item_subtitle">3-5 year of minimum Experience.</p>
                 <p class="description">
-                    company ka description
+                    Salary: 30k-50k.
+
                 </p>
             </div>
             </div>
             <div class="award">
-                <h3 class="title">Projects</h3>
+                <h3 class="title">Products</h3>
                 <div class="award_item">
-                    <p class="item_preTitle">First Project (php):</p>
-                    <h4 class="item_title">ADDRESS STORE IN DATABASE</h4>
+                    <p class="item_preTitle">Popular :</p>
+                    <h4 class="item_title">ECommerce Websites</h4>
                     <!-- <p class="item_subtitle">Frontend Developer</p> -->
                     <p class="description">
                         Discription: This project will store the user address and contact details in the database.You can store your different addresses such as home address and working place address and can also edit your details.You can also delete your records.
@@ -141,10 +159,10 @@
                 </div>
                 <div class="award_item">
                 <!-- <p class="item_preTitle">2024 - Present</p> -->
-                <h4 class="item_title">Other projects:</h4>
-                <p class="item_subtitle">project name</p>
+                <h4 class="item_title">All purpose Browsers:</h4>
+                <p class="item_subtitle">Go to our Home Page For More</p>
                 <p class="description">
-                    project description
+                    It has all Features  of an excellent browser that you need.
                 </p>
             </div>
             </div>
@@ -167,7 +185,10 @@
                 </div>
             </div>
          </div>
+
+
          <hr>
+         
          <div class="group-3">
             <div class="contact">
                 <h3 class="title">Contact</h3>
@@ -175,18 +196,20 @@
                     <p class="description">
                         <strong>Address:</strong>
                         <br>
-                        Bharatpur, Rajasthan
+                        Rajasthan, India
                     </p>
                     <p class="description">
                         <strong>Contact:</strong><br>
-                        +91 8560989870 , +91 8306889304
+                        +91 xxxxxxxx70 , +91 xxxxxxxx04
                     </p>
                     <p class="description">
                         <strong>Email :</strong><br>
-                        aakshit905@gmail.com
+                        AniWebofficials@gmail.com
                     </p>
                 </div>
             </div>
+
+
             <div class="socials">
                 <h3 class="title">Socials</h3>
                 <div class="social_items">
@@ -211,10 +234,10 @@
          </div>
          </div>
 
-         <script>
+         <!-- <script>
             feather.replace();
-          </script>
-          <script>
+          </script> -->
+          <!-- <script>
             var icon = document.getElementById("icon");
             icon.onclick = function(){
                 document.body.classList.toggle("dark-theme");
@@ -225,10 +248,9 @@
                         icon.src = "moon.png";
                     }
             }
-          </script>
-          <script src="style.js"></script>
+          </script> -->
+          <script src="about.js"></script>
     </body>
     </html>
-
 
     <!-- <a target="_blank" href="https://www.instagram.com/its_gagan_2003?igsh=MWk1dnY3dW0xN2M5bg==">click here</a> -->
