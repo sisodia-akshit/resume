@@ -42,17 +42,22 @@ body{
 }
 .sidenav {
     display: flex;
+    position: fixed;
     height: 100%;
     width: 0;
+   
     top: 0;
     left: 0;
-    position: absolute;
+   
     z-index: 1;
     overflow-x: hidden;
   }
+
+  
   .sidenav .menugroup1{
     width: 200px;
-    
+    height: 110%;
+
     background-color: transparent;
     backdrop-filter: blur(20px);
     
