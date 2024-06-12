@@ -74,7 +74,7 @@ body{
   }
   
   .sidenav a:hover {
-    color: #fbfd82;
+    color: #fcfc9c;
   }
   
   .sidenav .closebtn {
@@ -112,14 +112,15 @@ header{
 
 #brand{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     padding: 20px;
 
 }
 #brand .logo{
-    color: rgb(255, 249, 129);
+    color: rgb(253, 248, 162);
+    font-size: 30px;
 }
 
 #brand a{
@@ -147,7 +148,7 @@ ul li{
     margin-right: 10px;
 }
 ul a:hover, li:hover{
-    color: #fff873;
+    color: #fffa9f;
     transform: scale(1.1) ;
     
     transition: 0.3s;
@@ -163,7 +164,7 @@ ul a:hover, li:hover{
     padding:0.1rem 1.3rem;
     font-size:1rem;
     cursor:pointer;
-    color: #fbfd82;
+    color: #fbfd99;
 }
 
 
@@ -202,7 +203,212 @@ a{
     color: #d1d1d1;
 }
 
-.homelargebtn {
+/*mw-top Starts */
+
+
+#mw-top {
+    padding: 0;
+    margin: 0 0 40px 0;
+    position: relative;
+    z-index: 3;
+  }
+  .container {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  
+  
+  
+  #mw-top .mwt-content {
+
+    position: relative;
+    padding: 200px 90px;
+   
+
+    /* margin-right: 100px; */
+    background-color: rgb(251, 236, 148);
+    border-radius: 40px;
+  }
+
+ 
+  
+  #mw-top .mwt-content .mwt-icon {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    width: 60%;   
+    border-radius: 0 40px 40px 0;
+    overflow: hidden;
+  }
+  #mw-top .mwt-content .mwt-icon::before {
+    content: "";
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    background: rgb(43, 42, 60);
+    background: linear-gradient(90deg, rgb(253, 239, 149) 0%, rgba(43, 42, 60, 0) 100%);
+  }
+  #mw-top .mwt-content .mwt-icon img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    /* opacity: .5; */
+  }
+  
+  
+  /* @media screen and (max-width:1199px) {
+    #mw-top .mwt-content {
+      padding: 60px;
+  }
+  }
+  @media screen and (max-width:1365px) {
+    #mw-top .mwt-content {
+    margin: 0;
+  }
+  } */
+
+  
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  #mw-top .mwh-logo {
+    margin-bottom: 30px;
+  }
+  #mw-top .mwh-logo .mwh-logo-div {
+    height: 40px;
+    width: auto;
+  }
+  
+  a {
+    outline: none;
+    -moz-outline: none;
+    color: #aaa;
+    text-decoration: none;
+  background-color: transparent;
+  }
+  
+  #xsearch.home-search {
+    display: block !important;
+    margin: 0;
+    padding: 0 !important;
+    width: 100%;
+    height: 100%;
+    background: none !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    font-size: large;
+    /* max-width: 500px; */
+    z-index: 3;
+}
+/* *, ::after, ::before {
+    box-sizing: border-box;
+} */
+/* user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+} */
+  /* button */
+
+  #action-button .btn {
+    display: block;
+    border-radius: 12px;
+    padding: 15px 20px;
+    font-weight: 600;
+    background: #fdfc9e !important;
+    color: #111 !important;
+    border: none !important;
+    box-shadow: none !important;
+    max-width: 260px;
+}
+.btn-radius {
+    border-radius: 30px;
+}
+button, .btn {
+    border: none !important;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+@media only screen and (max-width:1200px) {
+    
+  #mw-top .mwt-content{
+    padding: 150px 40px;
+  }
+  
+}
+
+  @media only screen and (max-width:900px) {
+    
+      #mw-top .mwt-content{
+        padding: 100px 40px;
+      }
+      
+    }
+    @media only screen and (max-width:600px) {
+      #mw-top .mwt-content .mwt-icon img{
+            display: none;
+        }
+        #mw-top .mwt-content{
+          padding: 50px;
+        }
+        #action-button .btn{
+            background: #ffffff !important;
+        }
+        
+      }
+/* mw-top Ends */
+
+
+
+
+   
+    
+/* .homelargebtn {
     text-align: center;
     font: 15px sans-serif;
     color:white;
@@ -211,18 +417,18 @@ a{
     padding-top: 20px;
     padding-bottom: 20px;
 
-}
-
-.homelargebtn .largebtn{
+} */
+ .largebtn{
     font-size: large;
     font-weight: bold;
-    background:  #fff873;
+    background:  #ffff;
     border-radius: 10px;
     padding: 10px 30px ;
+
 }
 
 .title{
-    color: #f9f95f;
+    color: #fcfc8d;
     font-weight: 700;
     font-size: 2rem;
     text-transform: uppercase;
@@ -254,7 +460,7 @@ a{
     gap: 1rem;
 }
 /* layouts */
-.container {
+.mw-xmain {
     max-width: 2000px;
     width: 100%;
     margin: 0 auto;
@@ -266,7 +472,7 @@ a{
     gap: 4rem;
 }
 @media only screen and(max-width: 768px){
-    .container{ 
+    .mw-xmain{ 
         width: 100%;
         grid-template-columns: 1fr;
         padding: 3rem;
@@ -319,7 +525,7 @@ a{
     display: flex;
 }
 .profile_name_firstname{
-    color: #f6ff46;
+    color: #fbf58b;
     font-weight: 700;
     font-size: clamp(2.5rem, 5vw, 7rem);
     display: block;
@@ -344,7 +550,7 @@ a{
     margin-top: 1rem;
 }
 .downloadBtn:hover{
-    color: #fff653;
+    color: #fff98d;
 }
 @media only screen and (max-width: 768px){
     .profile_container{
@@ -437,7 +643,7 @@ a{
     color: #ffff;
 }
 .social_item:hover{
-    color: #f9ff47;
+    color: #faed89;
 }
 
 hr{
