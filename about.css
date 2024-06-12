@@ -399,6 +399,11 @@ button, .btn {
         #action-button .btn{
             background: #ffffff !important;
         }
+        #action-button {
+        position: absolute;
+        bottom:30%;
+        width: 100%;
+      }
         
       }
 /* mw-top Ends */
